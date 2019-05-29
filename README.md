@@ -19,7 +19,7 @@ Configurar el ambiente python para el proyecto
 ```sh
 
 cd ~/path/to/code
-virtualenv venv
+virtualenv-3 venv
 source venv/bin/activate
 pip3 install flask
 pip3 install flask-bootstrap
@@ -30,7 +30,7 @@ pip3 install flask-bootstrap
 Para iniciar la aplicación ejecutar
 ```sh
 
-python3 main.py
+python3 app.py
 
 ```
 
